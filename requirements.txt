@@ -1,0 +1,25 @@
+# Core AI Agent Framework
+crewai==0.29.8
+
+# LLM and embedding framework
+langchain==0.1.16
+langchain-community==0.0.35
+openai==1.24.1
+
+# Embedding + Vector DB
+chromadb==0.4.24
+
+# Web scraping
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Environment variable support
+python-dotenv==1.0.1
+
+# Compatibility fixes
+pydantic==2.5.3
+numpy==1.26.4
+onnxruntime==1.16.3
+
+# Optional (for development)
+tqdm==4.66.2

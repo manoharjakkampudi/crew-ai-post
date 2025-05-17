@@ -1,0 +1,36 @@
+
+  researcher:
+    description: >
+      Search for the latest top 3 articles about "AI in education" and summarize their content clearly.
+    expected_output: >
+      A concise, well-structured summary including key takeaways and sources.
+
+  reporting_analyst:
+    description: >
+      Create 2–3 social media posts summarizing the research findings using emojis and hashtags.
+    expected_output: >
+      Platform-optimized captions (e.g., Twitter/LinkedIn-ready).
+
+  editor:
+    description: >
+      Review and enhance the clarity, tone, and grammar of the drafted social media posts.
+    expected_output: >
+      Final polished post versions ready for approval.
+
+  approval_agent:
+    description: >
+      Review polished posts and approve or reject based on content standards and relevance.
+    expected_output: >
+      Approval confirmation or rejection with reason.
+
+  publisher:
+    description: >
+      Publish the final approved posts to the selected platforms.
+    expected_output: >
+      Confirmation of successful publishing.
+
+  feedback_collector:
+    description: >
+      Monitor published post performance and collect feedback for future improvements.
+    expected_output: >
+      Summary of engagement metrics and actionable feedback insights.
